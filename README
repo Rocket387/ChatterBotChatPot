@@ -1,0 +1,12 @@
+Built following:
+https://realpython.com/build-a-chatbot-python-chatterbot/
+
+To start
+-------------------
+create and activate a virtual environment, then install chatterbot and pytz:
+PS> python -m venv venv
+PS> venv\Scripts\activate
+(venv) PS> python -m pip install chatterbot==1.0.4 pytz
+
+During the first run, ChatterBot creates a SQLite database file where it stores all inputs and
+connects them with possible responses.
